@@ -1,6 +1,6 @@
 import { Suspense } from "react";
-import VideoComponent from "./ui/video-component";
-import VideoSkeleton from "./ui/video-skeleton";
+import VideoComponent from "@/app/ui/components/video-component";
+import VideoSkeleton from "@/app/ui/components/video-skeleton";
 import { notoSansMono } from "./ui/fonts";
 
 export default function Home() {
