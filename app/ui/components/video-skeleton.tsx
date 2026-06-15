@@ -1,6 +1,6 @@
 export default function VideoSkeleton() {
   return (
-    <div className="mx-auto animate-pulse">
+    <div className="animate-pulse">
       {/* 16:9 Video Aspect Ratio Block */}
       <div className="w-full aspect-video bg-gray-300 dark:bg-gray-700 rounded-xl" />
 
