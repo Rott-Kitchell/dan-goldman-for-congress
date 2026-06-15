@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@/app/ui/globals.css";
 import { notoSans } from "@/app/ui/fonts";
 import Header from "@/app/ui/components/Header";
+import Footer from "@/app//ui/components/Footer";
 
 export const metadata: Metadata = {
   title: "Dan Goldman for Congress",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${notoSans.className} antialiased`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
